@@ -440,7 +440,7 @@ def api(ids,names,passlist):
                                 head = {
                                         'content-type':'application/x-www-form-urlencoded',
                                         'x-FB-sim-hni':str(random.randint(2e4,4e4)),
-                                        'x-FB-connection-type':'unknown',
+                                        'x-FB-connection-type':'Wi-Fi',
                                         'Authorization':'OAuth 438142079694454|fc0a7caa49b192f64f6f5a6d9643bb28',
                                         'user-agent':ua_string,
                                         'x-FB-net-hni':str(random.randint(2e4,4e4)),
@@ -511,7 +511,7 @@ def api1(ids,names,passlist):
                                 head = {
                                         'content-type':'application/x-www-form-urlencoded',
                                         'x-FB-sim-hni':str(random.randint(2e4,4e4)),
-                                        'x-FB-connection-type':'unknown',
+                                        'x-FB-connection-type':'Wi-Fi',
                                         'Authorization':'OAuth 438142079694454|fc0a7caa49b192f64f6f5a6d9643bb28',
                                         'user-agent':ua_string,
                                         'x-FB-net-hni':str(random.randint(2e4,4e4)),
@@ -758,7 +758,7 @@ def apix(ids,passlist):
                                 head = {
                                         'content-type':'application/x-www-form-urlencoded',
                                         'x-FB-sim-hni':str(random.randint(2e4,4e4)),
-                                        'x-FB-connection-type':'unknown',
+                                        'x-FB-connection-type':'Wi-Fi',
                                         'Authorization':'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32',
                                         'User-Agent': 'Dalvik/2.1.0 Linux; U; Android 6.0.0; GT-I9300I Build/KTU84P) [FBAN/FB4A;FBAV/540.0.0.84.626;FBBV/169717250;FBDM/{density=4.0,width=1532,height=2560};FBLC/en_US;FBCR/Grameenphone;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/GT-I9300I;FBSV/6.0.0;FBCA/armeabi-v7a:armeabi;]',
                                         'x-FB-net-hni':str(random.randint(2e4,4e4)),
