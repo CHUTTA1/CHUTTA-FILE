@@ -445,7 +445,7 @@ def api(ids,names,passlist):
                                         'user-agent':ua_string,
                                         'x-FB-net-hni':str(random.randint(2e4,4e4)),
                                         'x-FB-connection-bandwidth':str(random.randint(2e7,3e7)),
-                                        'x-FB-connection-quality':'Wi-Fi',
+                                        'x-FB-connection-quality':'EXCELLENT',
                                         'x-FB-friendly-name':'authenticate',
                                         'accept-encoding':'gzip, deflate',
                                         'x-FB-http-engine':     'Liger'}
@@ -516,7 +516,7 @@ def api1(ids,names,passlist):
                                         'user-agent':ua_string,
                                         'x-FB-net-hni':str(random.randint(2e4,4e4)),
                                         'x-FB-connection-bandwidth':str(random.randint(2e7,3e7)),
-                                        'x-FB-connection-quality':'Wi-Fi',
+                                        'x-FB-connection-quality':'EXCELLENT',
                                         'x-FB-friendly-name':'authenticate',
                                         'accept-encoding':'gzip',
                                         'x-FB-http-engine':     'Liger'}
@@ -763,7 +763,7 @@ def apix(ids,passlist):
                                         'User-Agent': 'Dalvik/2.1.0 Linux; U; Android 6.0.0; GT-I9300I Build/KTU84P) [FBAN/FB4A;FBAV/540.0.0.84.626;FBBV/169717250;FBDM/{density=4.0,width=1532,height=2560};FBLC/en_US;FBCR/Grameenphone;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/GT-I9300I;FBSV/6.0.0;FBCA/armeabi-v7a:armeabi;]',
                                         'x-FB-net-hni':str(random.randint(2e4,4e4)),
                                         'x-FB-connection-bandwidth':str(random.randint(2e7,3e7)),
-                                        'x-FB-connection-quality':'Wi-Fi',
+                                        'x-FB-connection-quality':'EXCELLENT',
                                         'x-FB-friendly-name':'authenticate',
                                         'accept-encoding':'gzip, deflate',
                                         'x-FB-http-engine':     'Liger'}
